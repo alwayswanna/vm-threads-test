@@ -1,0 +1,9 @@
+/.idea/
+/.gradle/
+/gradle/
+/virtual/.gradle/
+/virtual/build/
+/reactive/build/
+/reactive/.gradle/
+/classic/.gradle/
+/classic/build/
