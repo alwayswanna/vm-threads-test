@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="virtual" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="vm-threads-test.virtual.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="a.gleb.virtual.App" />
+    <option name="VM_PARAMETERS" value="-Xms512m -Xmx1024m -Xss256k -XX:+UseG1GC -XX:MinHeapFreeRatio=40 -XX:MaxHeapFreeRatio=70 -XX:NewSize=128m -XX:MaxNewSize=256m -XX:CompressedClassSpaceSize=300m -XX:+UseStringDeduplication -XX:-TieredCompilation -XX:+ScavengeBeforeFullGC -XX:+ParallelRefProcEnabled" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

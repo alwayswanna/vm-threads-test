@@ -1,0 +1,30 @@
+server:
+  port: 8092
+  tomcat:
+    threads:
+      max: 20000
+
+spring:
+  application:
+    name: virtual
+  datasource:
+    password: postgres
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    root: info
